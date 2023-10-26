@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #d5d5d5, white);
+    background-repeat: no-repeat;
+}
+
+#logo {
+    padding: 5px;
+}
+
+#logo img {
+    height: 70px;
+}
+
+#nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#text-heading {
+    padding-right: 180px;
+    margin-right: 50px;
+    padding-top: 50px;
+    font-size: 50px;
+    font-weight: 800;
+    font-variant: small-caps;
+    font-family: Itim;
+    color: #01417d;
+}
+
+#container {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    background-color: white;
+    height: 600px;
+    width: 700px;
+    border: 5px solid #a7a7a7;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 600px;
+    width: 400px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0 0 0 50px;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#Aadhar {
+    height: 70px;
+}
+
+#gender {
+    font-size: 15px;
+}
+
+.form input {
+    margin-bottom: 10px;
+    display: flex;
+
+}
+
+#button-conatiner {
+    background-color: #ffeeee;
+    width: 300px;
+    height: 590px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#farmer {
+    margin-top: 150px;
+}
+
+#landlord {
+    margin-bottom: 150px;
+}

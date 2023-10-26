@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(0deg, #d5d5d5, white);
+    background-repeat: no-repeat;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#logo {
+    padding: 15px;
+}
+
+#logo img {
+    height: 70px;
+}
+
+#disclaimer {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', cursive;
+}
+
+.data {
+    height: 40px;
+    width: 250px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Itim', cursive;
+}
+
+.data::placeholder {
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+}
+
+
+#login-box {
+    margin-top: 20px;
+    height: 350px;
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.button {
+    align-self: center;
+    width: 100px;
+    background-color: #000000;
+    background-image: none;
+    background-position: 0 90%;
+    background-repeat: repeat no-repeat;
+    background-size: 4px 3px;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: rgba(0, 0, 0, .2) 15px 28px 25px -18px;
+    box-sizing: border-box;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: Itim;
+    font-size: 20px;
+    line-height: 23px;
+    outline: none;
+    padding: 10px;
+    text-decoration: none;
+    transition: all 235ms ease-in-out;
+    user-select: none;
+    touch-action: manipulation;
+}
+
+.button:hover {
+    box-shadow: rgba(0, 0, 0, .5) 2px 15px 15px -5px;
+    transform: translate3d(0, 5px, 0);
+}
+
+.button:focus {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 4px -6px;
+}
+
+#portal {
+    display: flex;
+    justify-content: center;
+    font-size: xxx-large;
+    margin-top: 50px;
+    font-variant:small-caps;
+    font-family: Itim;
+    color: #01417d;
+}
+
+#signup {
+    display: flex;
+    justify-content: center;
+    font-family: Itim;
+    font-size: 30px;
+    font-weight: bolder;
+    text-decoration: underline;
+    padding-top: 20px;
+    color: #01417d;
+}
