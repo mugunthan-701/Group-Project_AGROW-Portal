@@ -1,6 +1,6 @@
-const username=document.getElementById("name")
+const username = document.getElementById("name")
 let names
 
-names=localStorage.getItem("user")
+names = localStorage.getItem("user")
 
-username.textContent=names
+username.textContent = names

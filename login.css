@@ -102,7 +102,7 @@ body {
     justify-content: center;
     font-size: xxx-large;
     margin-top: 50px;
-    font-variant:small-caps;
+    font-variant: small-caps;
     font-family: Itim;
     color: #01417d;
 }
@@ -112,8 +112,17 @@ body {
     justify-content: center;
     font-family: Itim;
     font-size: 30px;
-    font-weight: bolder;
+    font-weight: 500;
     text-decoration: underline;
     padding-top: 20px;
     color: #01417d;
+}
+
+#signup p {
+    cursor: pointer;
+}
+
+#signup p:hover {
+    scale: 1.1;
+    font-weight: 700;
 }
