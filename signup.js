@@ -23,5 +23,24 @@ function next() {
         alert("Please Enter All the Details!");
     }
 }
+function next1() {
+    localStorage.setItem("profession", landlord )
+    localStorage.setItem('name', names.value)
+    var isFormEmpty = true;
+
+    forms.forEach(function(form) {
+        if (form.querySelector('input').value.trim() === "" ) {
+            isFormEmpty = false;
+            return;
+        }
+    });
+
+    if (isFormEmpty) {
+        location.href = "farmer's_page.html";
+    } else {
+        alert("Please Enter All the Details!");
+    }
+}
+
 
 
