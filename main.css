@@ -44,7 +44,7 @@ body {
     touch-action: manipulation;
     background-color: #ffffff;
     margin: 5px;
-    box-shadow: inset 0 0 5px 2px rgba(0, 0, 0, 1), #000000 10px 10px 3px 0;
+    box-shadow:  #000000 10px 10px 3px 0;
     height: 50px;
     width: auto;
     justify-content: center;
@@ -52,11 +52,12 @@ body {
 }
 
 #main {
+    height: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     display: grid;
     grid-template-columns: repeat(3, 350px);
-    grid-template-rows: repeat(3, 300px);
+    grid-template-rows: repeat(3, 250px);
     row-gap: 50px;
     column-gap: 100px;
     justify-content: center;
@@ -95,29 +96,27 @@ body {
 }
 
 .data {
+    display: none;
     width: 350px;
     background-color: #ffffff;
-    display: inline-block;
     -webkit-animation-duration: 1s;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
     -webkit-animation-timing-function: ease-in-out;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
     -webkit-animation-iteration-count: infinite;
-    color: white;
-    height: 300px;
+    height: 250px;
     cursor: pointer;
-    border: 2px solid #cecece;
+    border: 2px solid #754a00;
     border-radius: 30px;
-    box-shadow: #ffffff 4px 4px 0 0;
-    color: black;
-    display: flex;
+    color: rgb(1, 93, 174);
+    flex-direction: column;
+    justify-content: space-evenly;
     font-weight: 600;
-    font-size: 15px;
     font-family: Poppins;
-    padding: 0 18px;
+    padding: 40px;
     line-height: 50px;
     text-align: center;
     text-decoration: none;
@@ -125,6 +124,12 @@ body {
     -webkit-user-select: none;
     touch-action: manipulation;
     background-color: #ffffff;
+    box-shadow: inset 5px 5px 15px rgb(0, 0, 0), #ffffff 8px 8px 0 0;
+}
+
+.data p{
+    font-weight: 700;
+    font-size: 20px;
 }
 
 #footer {
