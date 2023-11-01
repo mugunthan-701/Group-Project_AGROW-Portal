@@ -11,10 +11,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     // Calculate the number of divs to display (random number between 1 and 9)
-    const numDivsToDisplay = Math.floor(Math.random() * 9) + 1;
+    const numDivsToDisplay = Math.floor(Math.random() * 9) + 2;
     
     // Randomly select and display the divs
-    for (let i = 1; i <= numDivsToDisplay; i++) {
+    for (let i = 0; i <= numDivsToDisplay; i++) {
         const randomIndex = Math.floor(Math.random() * gridItems.length);
         gridItems[randomIndex].style.display = "block";
     }
