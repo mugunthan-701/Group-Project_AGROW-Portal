@@ -18,7 +18,7 @@ function next() {
     });
 
     if (isFormEmpty) {
-        location.href = "main.html";
+        location.href = "farmer-main.html";
     } else {
         alert("Please Enter All the Details!");
     }
@@ -36,7 +36,7 @@ function next1() {
     });
 
     if (isFormEmpty) {
-        location.href = "farmer's_page.html";
+        location.href = "landlord-main.html";
     } else {
         alert("Please Enter All the Details!");
     }

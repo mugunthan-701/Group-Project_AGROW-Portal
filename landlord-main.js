@@ -1,7 +1,7 @@
 const username = document.getElementById("name")
 let names
 
-names = localStorage.getItem("user")
+names = localStorage.getItem("name")
 
 username.textContent = names
 

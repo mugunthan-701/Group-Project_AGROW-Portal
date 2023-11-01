@@ -6,12 +6,21 @@
 
 body {
   background-color: #e7e7e7;
+  overflow: hidden;
+}
+
+#logo {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+#logo img {
+  height: 40px;
 }
 
 #main {
-  padding-top: 70px;
-  height: 100vh;
-  width: 100vw;
+  margin-top: 100px;
   display: flex;
   justify-content: space-evenly;
 }

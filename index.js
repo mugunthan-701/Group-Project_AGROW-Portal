@@ -13,7 +13,7 @@ function next() {
     if (((user!= "") &&(pass!=""))&&(pass.length>=8)){
         localStorage.setItem("name", user)
         localStorage.setItem("profession", farmer)
-        location.href = "main.html"
+        location.href = "farmer-main.html"
     } else {
         alert("Please fill in all inputs!")
     }
@@ -22,4 +22,6 @@ function next() {
 function main() {
     location.href = "signup.html"
 }
+
+
 
